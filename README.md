@@ -2,6 +2,12 @@
 
 ## Run Locally
 
+
+```bash
+ set .env file in root directory 
+ set mongoURL= your local host link
+```
+
 Clone the project
 
 ```bash
