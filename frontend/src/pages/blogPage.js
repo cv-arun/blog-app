@@ -21,7 +21,7 @@ function BlogPage() {
   return (
     <>
       <Header />
-      <div className='w-[979px] h-[520px] bg-[#E9E9E9] mx-auto mt-[174px] mb-[20px] p-4'>
+      <div className='md:w-[979px] h-[520px] bg-[#E9E9E9] mx-auto md:mt-[174px] mt-[254px]  mb-[20px] p-4'>
         <div className='w-[375px] h-[60px] mx-auto bg-[#E9E9E9]'><h1 className='text-[40px] font-semibold text-center'>{blog?.title}</h1></div>
         <p className='break-all overflow-y-scroll h-[420px]'>{blog?.content}</p>
       </div>

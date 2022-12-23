@@ -3,7 +3,7 @@ import React from 'react'
 function NewBlog({ setState, state,err }) {
 
     return (
-        <div className='w-[979px] h-[575px] bg-[#E9E9E9] mx-auto mt-[174px] mb-[41px] p-1'>
+        <div className='md:w-[979px]  h-[575px] bg-[#E9E9E9] mx-auto  md:mt-[174px] mt-[254px]  mb-[41px] p-1'>
             <div className='bg-[#D9D9D9] h-[35px]'>
 
             </div>
