@@ -25,7 +25,7 @@ function BlogPage() {
         <div className='w-[375px] h-[60px] mx-auto bg-[#E9E9E9]'><h1 className='text-[40px] font-semibold text-center'>{blog?.title}</h1></div>
         <p className='break-all overflow-y-scroll h-[420px]'>{blog?.content}</p>
       </div>
-      <div onClick={() => navigate('/')} className='bg-[#E9E9E9] w-[80px] h-[70px] rounded-[20px] fixed 
+      <div title='Go to home page' onClick={() => navigate('/')} className='bg-[#E9E9E9] w-[80px] h-[70px] rounded-[20px] fixed 
              top-[167px] left-[38px] shadow flex flex-col justify-center'>
         <Homeicons />
       </div>

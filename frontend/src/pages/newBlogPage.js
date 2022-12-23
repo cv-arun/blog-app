@@ -25,10 +25,10 @@ function NewBlogPage() {
     <>
       <Header />
       <NewBlog state={state} setState={setState} err={err} />
-      <div onClick={()=>navigate('/')} className='bg-[#E9E9E9] w-[80px] h-[70px] rounded-[20px] fixed top-[167px] left-[38px] shadow flex flex-col justify-center'>
+      <div title='Go to home page' onClick={()=>navigate('/')} className='bg-[#E9E9E9] w-[80px] h-[70px] rounded-[20px] fixed top-[167px] left-[38px] shadow flex flex-col justify-center'>
         <Homeicons />
       </div>
-      <div onClick={submit} className='bg-[#E9E9E9] w-[80px] h-[70px] rounded-[20px] fixed top-[265px] left-[38px] shadow flex flex-col justify-center'>
+      <div title='submit' onClick={submit} className='bg-[#E9E9E9] w-[80px] h-[70px] rounded-[20px] fixed top-[265px] left-[38px] shadow flex flex-col justify-center'>
         <TickICon />
       </div>
     </>

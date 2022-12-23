@@ -25,7 +25,7 @@ function HomePage() {
         <div className='grid md:grid-cols-3 grid-col-1 gap-4 pt-[30px]'>
           {blogs?.map(curr => <div onClick={() => navigate(`/blog/${curr._id}`)} > <Cards title={curr?.title} /></div>)}
         </div>
-        <div onClick={() => navigate('/new-blog')}
+        <div onClick={() => navigate('/new-blog')} title='create new blog'
           className='bg-[#E9E9E9] w-[80px] h-[70px] rounded-[20px] fixed bottom-[24px] right-[55px] shadow flex flex-col justify-center'>
           <ClipBoard />
         </div>
