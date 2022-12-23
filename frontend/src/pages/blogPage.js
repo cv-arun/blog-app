@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from '../components/header';
 import Homeicons from '../icons/homeicons';
+import { useNavigate } from 'react-router-dom';
 
 function BlogPage() {
+  const navigate = useNavigate()
   return (
     <>
       <Header />
@@ -10,7 +12,8 @@ function BlogPage() {
         <div className='w-[375px] h-[60px] mx-auto bg-[#E9E9E9]'><h1 className='text-[40px] font-semibold text-center'>Title</h1></div>
         <p className='break-all overflow-y-scroll h-[420px]'>fdsjfjsdfjssdfddddddddddddddddddddffffffffffasdfsdffffffffffffffffffffffffsdffffffffffffffsfffffffffffffffffffffffffffffffffffffffffffdnfkjldsnfkjdsnfjnfkldsfffffffffffffffffffffffffffffffffffsdfdsssssssssssssssssssssssssssssssss</p>
       </div>
-      <div className='bg-[#E9E9E9] w-[80px] h-[70px] rounded-[20px] fixed top-[167px] left-[38px] shadow flex flex-col justify-center'>
+      <div onClick={()=>navigate('/')} className='bg-[#E9E9E9] w-[80px] h-[70px] rounded-[20px] fixed 
+             top-[167px] left-[38px] shadow flex flex-col justify-center'>
         <Homeicons />
       </div>
     </>
